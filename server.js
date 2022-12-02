@@ -39,7 +39,7 @@ app.use(
   })
 );
 
-app.get("/", function (req, res) {
+app.get("/", (req, res) => {
   res.json("teste");
   //if (!req.session.numeroDoPedidoCliente) {
   //  req.session.numeroDoPedidoCliente = 1;
