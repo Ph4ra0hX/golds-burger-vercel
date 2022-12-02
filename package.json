@@ -15,7 +15,7 @@
     "start": "node server.js"
   },
   "engines": {
-    "node": "10x"
+    "node": "18.x"
   },
   "keywords": [],
   "author": "",
