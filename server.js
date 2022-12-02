@@ -40,13 +40,14 @@ app.use(
 );
 
 app.get("/", function (req, res) {
-  if (!req.session.numeroDoPedidoCliente) {
-    req.session.numeroDoPedidoCliente = 1;
-  }
-
-  res.render("index.html", {
-    numeroDoPedidoCliente: "1",
-  });
+  res.json("teste");
+  //if (!req.session.numeroDoPedidoCliente) {
+  //  req.session.numeroDoPedidoCliente = 1;
+  //}
+  //
+  //res.render("index.html", {
+  //  numeroDoPedidoCliente: "1",
+  //});
 
   //res.render("fechado.html");
 
